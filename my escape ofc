@@ -1,0 +1,117 @@
+
+response = input(" Hello, I am the MyEscape Bot! \n I’ll be trying to help you figure out why you may be having problems, or have been feeling down recently. \n Please try to be as specific as possible when i ask you a general question.\n When i ask a yes or no question, you can respond with “yes”, “yeah” “i guess” or, “no”.\n Please type okay to start talking to me, The MyEscape Bot!")
+if "okay" in response:
+        response_8=input("How are you feeling?")
+
+        #SUICIDAL THOUGHTS GANG
+        if "bored" in response_8 or "angry" in response_8 or "anger" in response_8 or "upset" in response_8 or "depressed" in response_8 in response_8 or "leave" in response_8 or "suicidal" in response_8 or "death" in response_8 or "hate myself" in response_8 or "death" in response_8 or "blood" in response_8 or "dying" in response_8 or "sleep" in response_8 or "apart" in response_8 or "don’t care" in response_8 or "I want it to end" in response_8 or "I want to die" in response_8 or "giving up" in response_8 or "I hate myself" in response_8 or "death" in response_8 or  "blood" in response_8 or "dying" in response_8 or "relief" in response_8 or "miss" in response_8 or "doesn’t matter" in response_8 or "don't matter" in response_8 or "don't give a shit" in response_8 in response_8 or "exhausted" in response_8 or "done" in response_8 or "no" in response_8 or "never" in response_8 or "not" in response_8 or  "stop" in response_8 or  "stopping" in response_8 or "ending" in response_8 or "no more" in response_8 or "bad" in response_8:
+            response_ST2= input ("Have you ever tried to act on those thoughts?")
+            if "yes" in response_ST2 or "yeah" in response_ST2 or "i guess" in response_ST2:
+                response_ST3 = input("are you scared about what you may end up doing to yourself?")
+                if "yes" in response_ST3 or "yeah" in response_ST3 or "i guess" in response_ST3 or "no" in response_ST3:
+                    response_St2= input ("I’m concerned about you and your safety, you seem to be experiencing suicidal thoughts. \nYou should really consider contacting this hotline, 1-800-273-8255 \nIf you're more comfortable with texting a hotline, \nplease text HERE to 741741 \n Contacting a friend for help can also be a good idea. \nPlease confirm with a 'yes' if you would you like some ideas on how to start a conversation with a friend, asking for help")
+                    if "yes" in response_St2:
+                     response_frend = input ("1) Im feeling “____”. Im not sure what to ask for, but i dont want to be alone right now \n2)I dont feel safe by myself right now. Can you stay in the phone right now with me?\n     Would you like to hear some more?")
+                     if "yes" in response_frend or "yeah" in response_frend or "i guess" in response_frend:
+                         print ("3)I’m in a bad place, but im not ready to talk about it. Can you help me distract myself\n4) Can you check in with me every once in a while, just to make sure im okay?\n5) I know we dont talk much, but I’m going through a tough time and you are someone I can trust. Are you free to talk?")
+
+
+        #MENTAL ILLNESS PT 1
+
+        if "insomnia" in response_8 or "little sleep" in response_8 or "tired" in response_8 or "drained" in response_8 or "hopeless" in response_8 or "fatigued" in response_8 or "fatigue" in response_8:
+            response_PTSD = input("Have you experienced any flashbacks or nightmares recently?")
+
+            #PTSD TIME
+            if "yes" in response_PTSD or "yeah" in response_PTSD or "i guess" in response_PTSD:
+               response_PTSD1 = input("Has there been a traumatic event in your life?")
+               if "yes" in response_PTSD1 or "yeah" in response_PTSD1 or "i guess" in response_PTSD1:
+                   response_PTSD2 = input("Do you have a hard time trusting people who would normally be close to you?")
+                   if "yes" in response_PTSD2 or "yeah" in response_PTSD2 or "i guess" in response_PTSD2:
+                        print("It seems like you may be struggling with PTSD. \nYou should go see a doctor to get an actual diagnosis because PTSD can be really dangerous if it's left untreated")
+                   if "no" in response_PTSD2:
+                        print("I may be wrong but you may be struggling with PTSD.\nYou should go see a doctor to get an actual diagnosis because PTSD can be really dangerous if it's left untreated.")
+
+
+            #CLINICAL DEPRESSION TIME
+            if "no" in response_PTSD:
+               response_CD = input("Have you stopped enjoying your favorite activities or have experienced a loss of interest?")
+               if "yes" in response_CD or "yeah" in response_CD or "i guess" in response_CD:
+                   response_CD2 = input("Do you experience excessive crying and or feel socially isolated/try to distance yourself from the people that you love?")
+                   if "yes" in response_CD2 or "yeah" in response_CD2 or "i guess" in response_CD2:
+                       response_CD3=input("Do you often feel depressed?")
+                       if "yes" in response_CD3 or "yeah" in response_CD3 or "i guess" in response_CD3:
+                            response_BP=input("Do you experience frequent, severe, mood swings?")
+                            if "yes" in response_BP or "yeah" in response_BP or "i guess" in response_BP:
+                                response_BP2 = input ("Does it feel like you  have been taking more risks than those around you?")
+                                if "yes" in response_BP2 or "yeah" in response_BP2 or "i guess" in response_BP2:
+                                     print ("I may be wrong but you seem to be struggling with Bipolar disorder. \nYou should go see a doctor to get an actual diagnosis because it can be really dangerous if it's left untreated.")
+                                if "no:" in response_BP2:
+                                    print("It seems like you’re struggling with Clinical Depression.\nYou should go see a doctor to get an actual diagnosis because it can be really dangerous if it's left untreated.")
+                            if "no" in response_BP:
+                                print("It seems like you’re struggling with Clinical Depression.\nYou should go see a doctor to get an actual diagnosis because it can be really dangerous if it's left untreated.")
+                   if "no" in response_CD2:
+                       print("I may be wrong but you may be struggling with Clinical Depression. \nYou should go see a doctor to get an actual diagnosis because it can be really dangerous if it's left untreated.")
+
+        #Anxiety Pt1 time
+                   if "no" in response_CD:
+                        response_A = input("Would you say that you worry too much?")
+                        if "yes" in response_A or "yeah" in response_A or "i guess" in response_A:
+                            response_A1 = input("Do you ever have intrusive or racing thoughts?")
+                            if "yes" in response_A1 or "yeah" in response_A1 or "i guess" in response_A1:
+                                response_A2 = input("Do you often feel tense, or restless?")
+                                if "yes" in response_A2:
+                                    response_A3 = input("Do you experience palpatations and trembling, that is typically accompanied by excessive sweat?")
+                                    if "yes" in response_A3:
+                                        print(
+                                            "It seems like you’re struggling with Anxiety.\nYou should go see a doctor to get an actual diagnosis because it can be detrimental if it's left untreated.")
+
+        # MENTAL ILLNESS PT 2
+        if "restless" in response_8 or "fidgety" in response_8 or "anxious" in response_8 or "anxiety" in response_8 or "nervousness" in response_8 or "jittery" in response_8 or "shaky" in response_8 or "trembling" in response_8 or "scared" in response:
+
+           #anxiety
+            response_A = input("Would you say that you worry too much?")
+            if "yes" in response_A or "yeah" in response_A or "i guess" in response_A:
+                response_A1= input("Do you ever have intrusive thoughts or racing thoughts?")
+                if "yes" in response_A1 or "yeah" in response_A1 or "i guess" in response_A1:
+                    response_A2= input ("Do you feel tense, or restless?")
+                    if "yes" in response_A2:
+                        response_A3 = input("Do you ever sweat a lot for no reason, or have palpitations/trembling?")
+                        if "yes" in response_A3:
+                            print("It seems like you’re struggling with Anxiety.\nYou should go see a doctor to get an actual diagnosis because it can be detrimental if it's left untreated.")
+
+
+            #PTSD TIME
+            response_PTSD = input("Have you experienced any flashbacks or nightmares recently?")
+            if "yes" in response_PTSD or "yeah" in response_PTSD or "i guess" in response_PTSD:
+               response_PTSD1 = input("Has there been a traumatic event in your life?")
+               if "yes" in response_PTSD1 or "yeah" in response_PTSD1 or "i guess" in response_PTSD1:
+                   response_PTSD2 = input("Do you have a hard time trusting people who would normally be close to you?")
+                   if "yes" in response_PTSD2 or "yeah" in response_PTSD2 or "i guess" in response_PTSD2:
+                        print("It seems like you’re struggling with PTSD. \nYou should go see a doctor to get an actual diagnosis because PTSD can be really dangerous if it's left untreated")
+                   if "no" in response_PTSD2:
+                        print("I may be wrong but you may be struggling with PTSD.\nYou should go see a doctor to get an actual diagnosis because PTSD can be really dangerous if it's left untreated.")
+            #OCD GANG
+            response_OCD=input("Have you had compulsions that you have no control over?")
+            if "yes" in response_OCD or "yeah" in response_OCD or "i guess" in response_OCD:
+                response_OCD1=input("Have you been doing repetitive or ritualistic actions?")
+                if "yes" in response_OCD1 or "yeah" in response_OCD1 or "i guess" in response_OCD1:
+                    response_OCD2=input("Do you feel as though if everything isnt done correctly and/or perfectly that something bad will happen?")
+                    if "yes" in response_OCD2 or "yeah" in response_OCD2 or "i guess" in response_OCD2:
+                        print("It seems like you’re struggling with an OCD.\nYou should go see a doctor to get an actual diagnosis because this can be really dangerous if it's left untreated.")
+
+
+
+
+        #EATING DISORDER GANG GANG GANG
+        if "binging" in response_8 or "eating" in response_8 or "hungry" in response_8 or "skinny" in response_8 or "fat" in response_8 or "disgusting" in response_8 or "weight gain" in response_8 or " gaining weight" in response_8 or "gain weight" in response_8 or "lose weight" in response_8 or "losing weight" in response_8 or "lost weight" in response_8:
+            response_ED=input("Has your relationship with food changed recently?")
+            if "yes" in response_ED or "yeah" in response_ED or "i guess" in response_ED or "no" in response_ED:
+                response_ED1=input("Do you restrict the amount of food you eat, with methods like calorie counting?")
+                if "yes" in response_ED1 or "yeah" in response_ED1 or "i guess" in response_ED1 or "yes" in response_ED1 or "yeah" in response_ED1 or "i guess" in response_ED1 or "no" in response_ED1:
+                    response_ED2 = input("Have you tried to get rid of your food through unhealthy means, whether it be by purging or inappropriate use of laxatives ")
+                    if "yes" in response_ED or "yeah" in response_ED or "i guess" in response_ED or "no" in response_ED or "yes" in response_ED1 or "yeah" in response_ED1 or "i guess" in response_ED1 or "yes" in response_ED1 or "yeah" in response_ED1 or "i guess" in response_ED1:
+                        print("It seems like you’re struggling with an eating disorder.\nYou should go see a doctor to get an actual diagnosis because an eating disorder can be really dangerous if it's left untreated!")
+
+
+
+print("Well, thank you so much for talking to me!\nI hope i helped you with whatever issue you're facing\nRemember that i'm always here when you need a friend")
